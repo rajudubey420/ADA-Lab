@@ -1,0 +1,10 @@
+ dfs(vertex v)
+    {
+    visit(v);
+    for each neighbor w of v
+        if w is unvisited
+        {
+        dfs(w);
+        add edge vw to tree T
+        }
+    }
